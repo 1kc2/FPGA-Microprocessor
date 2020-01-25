@@ -1,0 +1,86 @@
+Quartus Prime Archive log --	/cs/student/ug/2019/kchawla/Downloads/engChallenge1/project.qarlog
+
+Archive:	/cs/student/ug/2019/kchawla/Downloads/engChallenge1/project.qar
+Date:		Thu Nov 14 13:05:40 2019
+Quartus Prime		18.1.1 Build 646 04/11/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/ALU.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/ALUcL.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/ALUcL.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/ALUdec.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/ALUdec.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/ROM.vhd
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/adder.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/adder32bitTWO.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/assignment_defaults.qdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/blink.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/circuit3.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/circuit4.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/circuit5.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/circuit6.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/clockDivider.v
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/comparator4bit.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/comparator8bit.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/comparator8bit.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/controlunit.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/controlunit.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/counter.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/coursework.qpf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/coursework.qsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/displayDriver.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/dmem.v
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/enabledresettableflipflop.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/enabledresettableflipflop.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/flipflopd.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/fourbitsadder.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/fourinputmux32.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/halfadder.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/latchd.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/leftshift.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/leftshift.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/leftshift25.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/leftshift25.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/maindecoder.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/multiplexer.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux1.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux16.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux16.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux3.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux3.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux32.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux32.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux4.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux5.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux8.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/mux8.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/newpc.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/newreg32.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/outputv4.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/processor.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/programCounter.v
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/programcounter.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/programcounter.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/programcounter32.v
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/programcounter32new.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/regfile.v
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/register32.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/register32_en.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/register32en.v
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/resetableflipflop.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/resettableflipflop.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/resettableflipflop.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/rom.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/segmentcircuit0.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/segmentcircuit1.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/segmentcircuit2.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/sevensegmentcircuit2.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/sevensegmentcircuit2.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/signextend.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/signextend.bsf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/srlatch.bdf
+/cs/student/ug/2019/kchawla/Downloads/engChallenge1/zeroextend.bdf
+	======= Total: 75 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

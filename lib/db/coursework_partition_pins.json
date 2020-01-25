@@ -1,0 +1,185 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SEGFIVE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFIVE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFIVE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFIVE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFIVE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFIVE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFIVE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFOUR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFOUR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFOUR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFOUR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFOUR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFOUR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGFOUR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGONE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGONE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGONE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGONE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGONE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGONE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGONE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGSIX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGSIX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGSIX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGSIX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGSIX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGSIX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGSIX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTHREE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTHREE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTHREE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTHREE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTHREE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTHREE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTHREE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTWO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTWO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTWO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTWO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTWO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTWO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEGTWO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "CLK_IN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

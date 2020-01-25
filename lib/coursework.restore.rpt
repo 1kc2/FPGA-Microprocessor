@@ -1,0 +1,154 @@
+Restore Archived Project report for coursework
+Wed Nov 13 14:52:17 2019
+Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Nov 13 14:52:17 2019 ;
+; Revision Name                   ; coursework                            ;
+; Top-level Entity Name           ; hardwareprocessor                     ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/cs/student/ug/2019/alakra/Downloads/coursework.qar' into the '/cs/student/ug/2019/alakra/Downloads/coursework_restored/' directory
+Info: Generated report 'coursework.restore.rpt'
+Info (23030): Evaluation of Tcl script /usr/local/Quartus/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1126 megabytes
+    Info: Processing ended: Wed Nov 13 14:52:17 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++-------------------------------+
+; Files Restored                ;
++-------------------------------+
+; File Name                     ;
++-------------------------------+
+; qar_info.json                 ;
+; ALU.bdf                       ;
+; ALUdecoder.bdf                ;
+; ALUtest.vwf                   ;
+; DisplayDriver.v               ;
+; PROCESSORTEST.vwf             ;
+; ROM.vhd                       ;
+; Waveform0.vwf                 ;
+; Waveform1.vwf                 ;
+; Waveform8.vwf                 ;
+; adder.bdf                     ;
+; adder32bitTWO.bdf             ;
+; adder32test.vwf               ;
+; aludecodertest.vwf            ;
+; alutest4.vwf                  ;
+; alutest5.vwf                  ;
+; alutest6.vwf                  ;
+; alutest7.vwf                  ;
+; alutestthree.vwf              ;
+; alutesttwo.vwf                ;
+; blink.bdf                     ;
+; circuit2waveform.vwf          ;
+; circuit3.bdf                  ;
+; circuit4.bdf                  ;
+; circuit5.bdf                  ;
+; circuit6.bdf                  ;
+; clockDivider.v                ;
+; comparator4bit.bdf            ;
+; comparator8bit.bdf            ;
+; comparatortest.vwf            ;
+; controlunit.bdf               ;
+; counter.bdf                   ;
+; coursework.qpf                ;
+; coursework.qsf                ;
+; dmem.v                        ;
+; enabledresettableflipflop.bdf ;
+; flipflopd.bdf                 ;
+; flipflopdtest.vwf             ;
+; fourbitsadder.bdf             ;
+; fourinputmux32.bdf            ;
+; fulladdersecondtest.vwf       ;
+; halfadder.bdf                 ;
+; hardwareprocessor.bdf         ;
+; latchd.bdf                    ;
+; leftshift.bdf                 ;
+; leftshift25.bdf               ;
+; leftshifttest.vwf             ;
+; maindecoder.bdf               ;
+; maindecodertest.vwf           ;
+; multiplexer.bdf               ;
+; mux1.bsf                      ;
+; mux32.bdf                     ;
+; mux32test1.vwf                ;
+; mux32waveform.vwf             ;
+; mux4.bdf                      ;
+; mux5.bdf                      ;
+; outputdriver.bdf              ;
+; outputdrivernew.bdf           ;
+; pctestone.vwf                 ;
+; processor.bdf                 ;
+; programCounter.v              ;
+; programcounter.bdf            ;
+; programcountertest2.vwf       ;
+; regfile.v                     ;
+; register32en.v                ;
+; resetableflipflop.bdf         ;
+; resettableflipflop.bdf        ;
+; resettableflipflop.bsf        ;
+; segmentcircuit0.bdf           ;
+; segmentcircuit1.bdf           ;
+; segmentcircuit2.bdf           ;
+; sevensegmentcircuit2.bdf      ;
+; signextend.bdf                ;
+; signextendtest.vwf            ;
+; signextendtestfour.vwf        ;
+; signextendtestthree.vwf       ;
+; signextendtesttwo.vwf         ;
+; srlatch.bdf                   ;
+; zeroextend.bdf                ;
+; assignment_defaults.qdf       ;
++-------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

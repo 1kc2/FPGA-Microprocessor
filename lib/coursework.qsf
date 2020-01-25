@@ -1,0 +1,181 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+# Date created = 10:21:57  October 16, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		coursework_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name TOP_LEVEL_ENTITY newpc
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:21:57  OCTOBER 16, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_D12 -to C -disable
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_location_assignment PIN_P11 -to CLK_IN
+set_location_assignment PIN_C10 -to RESET
+set_location_assignment PIN_C14 -to SEGONE[0]
+set_location_assignment PIN_C17 -to SEGONE[6]
+set_location_assignment PIN_D17 -to SEGONE[5]
+set_location_assignment PIN_E16 -to SEGONE[4]
+set_location_assignment PIN_C16 -to SEGONE[3]
+set_location_assignment PIN_C15 -to SEGONE[2]
+set_location_assignment PIN_E15 -to SEGONE[1]
+set_location_assignment PIN_C18 -to SEGTWO[0]
+set_location_assignment PIN_D18 -to SEGTWO[1]
+set_location_assignment PIN_E18 -to SEGTWO[2]
+set_location_assignment PIN_B16 -to SEGTWO[3]
+set_location_assignment PIN_A17 -to SEGTWO[4]
+set_location_assignment PIN_A18 -to SEGTWO[5]
+set_location_assignment PIN_B17 -to SEGTWO[6]
+set_location_assignment PIN_B20 -to SEGTHREE[0]
+set_location_assignment PIN_A20 -to SEGTHREE[1]
+set_location_assignment PIN_B19 -to SEGTHREE[2]
+set_location_assignment PIN_A21 -to SEGTHREE[3]
+set_location_assignment PIN_B21 -to SEGTHREE[4]
+set_location_assignment PIN_C22 -to SEGTHREE[5]
+set_location_assignment PIN_B22 -to SEGTHREE[6]
+set_location_assignment PIN_F21 -to SEGFOUR[0]
+set_location_assignment PIN_E22 -to SEGFOUR[1]
+set_location_assignment PIN_E21 -to SEGFOUR[2]
+set_location_assignment PIN_C19 -to SEGFOUR[3]
+set_location_assignment PIN_C20 -to SEGFOUR[4]
+set_location_assignment PIN_D19 -to SEGFOUR[5]
+set_location_assignment PIN_E17 -to SEGFOUR[6]
+set_location_assignment PIN_F18 -to SEGFIVE[0]
+set_location_assignment PIN_E20 -to SEGFIVE[1]
+set_location_assignment PIN_E19 -to SEGFIVE[2]
+set_location_assignment PIN_J18 -to SEGFIVE[3]
+set_location_assignment PIN_H19 -to SEGFIVE[4]
+set_location_assignment PIN_F19 -to SEGFIVE[5]
+set_location_assignment PIN_F20 -to SEGFIVE[6]
+set_location_assignment PIN_J20 -to SEGSIX[0]
+set_location_assignment PIN_K20 -to SEGSIX[1]
+set_location_assignment PIN_L18 -to SEGSIX[2]
+set_location_assignment PIN_N18 -to SEGSIX[3]
+set_location_assignment PIN_M20 -to SEGSIX[4]
+set_location_assignment PIN_N19 -to SEGSIX[5]
+set_location_assignment PIN_N20 -to SEGSIX[6]
+set_global_assignment -name BDF_FILE mux8.bdf
+set_global_assignment -name BSF_FILE signextend.bsf
+set_global_assignment -name BSF_FILE sevensegmentcircuit2.bsf
+set_global_assignment -name BSF_FILE rom.bsf
+set_global_assignment -name BSF_FILE resettableflipflop.bsf
+set_global_assignment -name BSF_FILE register32_en.bsf
+set_global_assignment -name BSF_FILE register32.bsf
+set_global_assignment -name BSF_FILE programcounter32new.bsf
+set_global_assignment -name BSF_FILE programcounter.bsf
+set_global_assignment -name BSF_FILE outputv4.bsf
+set_global_assignment -name BSF_FILE mux32.bsf
+set_global_assignment -name BSF_FILE mux16.bsf
+set_global_assignment -name BSF_FILE mux8.bsf
+set_global_assignment -name BSF_FILE mux3.bsf
+set_global_assignment -name BSF_FILE mux1.bsf
+set_global_assignment -name BSF_FILE leftshift25.bsf
+set_global_assignment -name BSF_FILE leftshift.bsf
+set_global_assignment -name BSF_FILE enabledresettableflipflop.bsf
+set_global_assignment -name BSF_FILE controlunit.bsf
+set_global_assignment -name BSF_FILE comparator8bit.bsf
+set_global_assignment -name BSF_FILE ALUdec.bsf
+set_global_assignment -name BSF_FILE ALUcL.bsf
+set_global_assignment -name BDF_FILE zeroextend.bdf
+set_global_assignment -name BDF_FILE srlatch.bdf
+set_global_assignment -name BDF_FILE signextend.bdf
+set_global_assignment -name BDF_FILE sevensegmentcircuit2.bdf
+set_global_assignment -name BDF_FILE segmentcircuit2.bdf
+set_global_assignment -name BDF_FILE segmentcircuit1.bdf
+set_global_assignment -name BDF_FILE segmentcircuit0.bdf
+set_global_assignment -name VHDL_FILE ROM.vhd
+set_global_assignment -name BDF_FILE resettableflipflop.bdf
+set_global_assignment -name BDF_FILE resetableflipflop.bdf
+set_global_assignment -name VERILOG_FILE register32en.v
+set_global_assignment -name VERILOG_FILE regfile.v
+set_global_assignment -name VERILOG_FILE programcounter32.v
+set_global_assignment -name VERILOG_FILE programCounter.v
+set_global_assignment -name BDF_FILE programcounter.bdf
+set_global_assignment -name BDF_FILE processor.bdf
+set_global_assignment -name BDF_FILE outputv4.bdf
+set_global_assignment -name BDF_FILE newreg32.bdf
+set_global_assignment -name BDF_FILE newpc.bdf
+set_global_assignment -name BDF_FILE mux32.bdf
+set_global_assignment -name BDF_FILE mux16.bdf
+set_global_assignment -name BDF_FILE mux5.bdf
+set_global_assignment -name BDF_FILE mux4.bdf
+set_global_assignment -name BDF_FILE mux3.bdf
+set_global_assignment -name BDF_FILE multiplexer.bdf
+set_global_assignment -name BDF_FILE maindecoder.bdf
+set_global_assignment -name BDF_FILE leftshift25.bdf
+set_global_assignment -name BDF_FILE leftshift.bdf
+set_global_assignment -name BDF_FILE latchd.bdf
+set_global_assignment -name BDF_FILE halfadder.bdf
+set_global_assignment -name BDF_FILE fourinputmux32.bdf
+set_global_assignment -name BDF_FILE fourbitsadder.bdf
+set_global_assignment -name BDF_FILE flipflopd.bdf
+set_global_assignment -name BDF_FILE enabledresettableflipflop.bdf
+set_global_assignment -name VERILOG_FILE dmem.v
+set_global_assignment -name BDF_FILE counter.bdf
+set_global_assignment -name BDF_FILE controlunit.bdf
+set_global_assignment -name BDF_FILE comparator8bit.bdf
+set_global_assignment -name BDF_FILE comparator4bit.bdf
+set_global_assignment -name VERILOG_FILE clockDivider.v
+set_global_assignment -name BDF_FILE circuit6.bdf
+set_global_assignment -name BDF_FILE circuit5.bdf
+set_global_assignment -name BDF_FILE circuit4.bdf
+set_global_assignment -name BDF_FILE circuit3.bdf
+set_global_assignment -name BDF_FILE blink.bdf
+set_global_assignment -name BDF_FILE ALUdec.bdf
+set_global_assignment -name BDF_FILE ALUcL.bdf
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name BDF_FILE adder32bitTWO.bdf
+set_global_assignment -name BDF_FILE adder.bdf
+set_global_assignment -name BDF_FILE displayDriver.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
